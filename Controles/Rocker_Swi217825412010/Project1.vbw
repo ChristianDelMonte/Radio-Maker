@@ -1,0 +1,4 @@
+Form1 = 0, 0, 0, 0, C, 182, 182, 1011, 616, C
+VertToggleSwitch = 0, 0, 0, 0, C, 0, 0, 829, 434, C
+HorzToggleSwitch = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+SimpleButton = 0, 0, 0, 0, C, 0, 0, 0, 0, C

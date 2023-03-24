@@ -1,0 +1,68 @@
+
+*********************** RADIO MAKER MULTIMEDIA CONTROL USAGE *****************************
+
+CloseDevice:
+	wlhandle1 or 2 = Stream or Music
+
+InitDevice:
+	wflagdevice:
+	    BASS_DEVICE_8BITS     'use 8 bit resolution, else 16 bit
+	    BASS_DEVICE_MONO      'use mono, else stereo
+	    BASS_DEVICE_3D        'enable 3D functionality
+	    else		  'use normal initdevice (44110,16bit,stereo)
+
+Music01Load, Music02Load:
+	WFlagMusic:
+    	   BASS_MUSIC_LOOP      ' loop music
+    	   BASS_MUSIC_FT2MOD    ' play .MOD as FastTracker 2 does
+    	   BASS_MUSIC_PT1MOD    ' play .MOD as ProTracker 1 does
+   	   BASS_MUSIC_MONO      ' force mono mixing (less CPU usage)
+    	   BASS_MUSIC_3D       ' enable 3D functionality
+   	   BASS_MUSIC_POSRESET ' stop all notes when moving position
+    	   BASS_MUSIC_RAMPS      ' sensitive ramping
+    	   BASS_MUSIC_RAMP       ' normal ramping
+    	   Else		      'default normal ramping
+
+Music01GetLen, Music02GetLen, Music01GetPosition, Music02GetPosition:
+	wtypedisplay:
+	   MscRowCol = 1
+	   MscByte = 2
+
+Music01SetPan, Music02SetPan:
+	Wpan: -100=Left   0=middle   100=right
+	*** OBS: panning is not effective in 3d music mode
+
+Music01SetVolume, Music02SetVolume:
+	WVol: 0=min   100=max
+
+Stream01Load, Stream02Load:
+	WstrmFlag:
+    	   BASS_SAMPLE_3D                ' 3D functionality enabled
+    	   BASS_MP3_HALFRATE         	 ' reduced quality MP3 (half sample rate)
+    	   Else                    	 ' enable normal flag
+Stream01Play, Stream02Play:
+	WFlagStrmLoop:
+	   BASS_SAMPLE_LOOP		'enable sampling loop
+
+Stream01GetLen, Stream02GetLen, Stream01GetPosition, Stream02GetPosition:
+	wtypedisplay:
+	   StrTime = 1
+	   StrByte = 2
+
+Stream01SetPan, Stream02SetPan:
+	Wpan: -100=Left   0=middle   100=right
+	*** OBS: panning is not effective in 3d music mode
+
+Stream01SetPosition, Stream02SetPosition:
+	WposOrWseg:
+	   - Position in bytes
+	   - Position in Segs (no seg and miliseg or miliseg)
+
+	wtype:    'type of data to be passed in wposorwseg
+	   StrTime = 1
+	   StrByte = 2
+
+Stream01SetVolume, Stream02SetVolume:
+	WVol: 0=min   100=max
+
+

@@ -1,0 +1,16 @@
+rmFrame = 0, 0, 0, 0, C, 0, 0, 1241, 663, C
+mdlGray = 100, 100, 1341, 763, C
+rmOptionButton = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+rmCheck = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+mdlDeclarations = 75, 75, 1316, 738, C
+cEnums = 50, 50, 1291, 713, C
+rmCommand = 75, 75, 1316, 738, , 300, 300, 1541, 963, C
+rmMouseKeyEvents = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+propCheck = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+propFrame = 150, 150, 1391, 813, C, 25, 25, 1266, 688, C
+propOptionButton = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+propCommand = 200, 200, 1441, 863, C, 25, 25, 1266, 688, C
+propAll = 175, 175, 1416, 838, , 225, 225, 1466, 888, C
+clsFastCollection = 0, 0, 0, 0, C
+clsFile = 150, 150, 1391, 813, C
+clsVirtualDC = 175, 175, 1416, 838, C

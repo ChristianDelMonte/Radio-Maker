@@ -1,0 +1,12 @@
+vkFrame = 0, 0, 0, 0, C, 0, 0, 1241, 663, C
+mdlGray = 100, 100, 1341, 763, C
+mdlDeclarations = 75, 75, 1316, 738, C
+cEnums = 0, 0, 0, 0, C
+vkCommand = 47, 74, 910, 596, Z, 300, 300, 1541, 963, C
+propFrame = 0, 0, 0, 0, C, 25, 25, 1266, 688, C
+propCommand = 0, 0, 0, 0, C, 25, 25, 1266, 688, C
+propAll = 175, 175, 1416, 838, C, 225, 225, 1466, 888, C
+clsFastCollection = 0, 0, 0, 0, C
+clsFile = 150, 150, 1391, 813, C
+clsVirtualDC = 175, 175, 1416, 838, C
+Form1 = 0, 0, 0, 0, C, 104, 104, 898, 546, C

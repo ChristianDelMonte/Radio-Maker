@@ -1,0 +1,23 @@
+102 RMLocalize - Principal
+103 Listado de componentes
+104 Lenguaje Predeterminado
+105 ID General
+106 Nombre de archivo
+107 Lenguaje
+108 ID de Sistema
+109 Contenido
+110 Comentarios
+111 &Nuevo
+112 N&uevo...
+113 Nu&evo...
+114 Establecer predeterminado
+115 &Abrir archivo
+116 &Importar
+117 &Guardar cambios
+118 &Salir
+119 ninguno predeterminado
+120 Antes de importar datos de una lista debe establecer un idioma predeterminado. Los datos importados seran tomados por defecto para dicho idioma.
+121 RMLocalize - Setear nuevo lenguaje
+122 Lenguaje
+123 &Aceptar
+124 &Cancelar

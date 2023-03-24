@@ -1,0 +1,64 @@
+
+Archivo de descripcion de tema de WINDIW-SKIN-1.0.
+
+Autor: Abraham Araon H. L.
+
+
+----------------
+¿Como Crear uno?
+----------------
+
+Bueno, analizemos las secciones:
+
+#MAPS
+-----
+Contiene la ruta de las imagenes, debe tener exactamente 22 imagenes especificadas.
+Si alguna faltase el resultado visible sera desastrozo.
+
+#TITLE-FONT
+-----------
+Contiene informacion sobre la fuente a utilizar en el titulo de la ventana en orden
+de: 
+'nombre de la fuente a usar'
+'normal | bold | underline'
+'tamaño de fuente'
+
+#TITLE-COLOR
+------------
+Contiene informacion sobre el color del titulo de la
+ventana en orden de:
+'color primario'
+'color de sombra'
+los cuales estan en RGB en formato Long, para pasar de RGB a Long simplemente 
+combierta cada valor R, G y B en hexadecimal Ej: El color rosado = 255 0 255 = FF00FF 
+y en la calculadora introdusca estos valores en modo Hex en orden de B, G y R y
+cambie el modo a Dec lo que nos daria 16711935 que es el que nos sirve.
+
+#BACKGROUND-COLOR
+-----------------
+Contiene informacion sobre el color usado en el
+fondo de la ventana.
+
+#BACKGROUND-IMAGE
+-----------------
+Contiene la unica ruta a un archivo de imagen que sera usado como imagen de 
+fondo en el skin. La recomendacion es no poner una imagen de fondo pues 
+esto perjudica el rendimiento de su aplicacion.
+
+#WINDOW-RECT
+------------
+Contiene informacion sobre las zonas transparetes de la ventana, su 
+formato es 'X,Y' donde X es la cantidad de pixeles a hacer transparentes 
+desde la izquierda a la derecha de la ventana, e Y es la cantidad de pixeles 
+a hacer transparentes desde la derecha a la izquierda de la ventana. 
+Cada nueva entrada en la seccion #WINDOW-RECT significa una nueva linea 
+de pixeles en la ventana, la sentencia 'ALL' en formato 'ALL -N;X,Y' hara 
+transparentes los pixeles X,Y de toda la altura de la ventana menos N numero 
+de lineas (N debe ser negativo, aunque puede ser omitido).
+
+
+**********************************************************************************
+Si quiere ver ejemplos lo mas recomendable es que visualice los archivos "skin" 
+con un editor de texto plano. Estos archivos se encuentran en cada una de las 
+carpetes de temas.
+**********************************************************************************

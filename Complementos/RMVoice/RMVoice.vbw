@@ -1,0 +1,12 @@
+MainForm = 365, 240, 1096, 877, Z, 22, 27, 721, 648, C
+RMBass = 88, 108, 803, 737, C
+NetShowVoice = 139, 9, 868, 574, C
+AddonClass = 44, 54, 861, 663, C
+modBass = 66, 87, 828, 686, C
+ModSum = 88, 116, 850, 715, C
+RMVoiceData = 34, 4, 908, 659, C
+RMD = 154, 203, 916, 802, C
+FRMState = 44, 54, 741, 669, C, 66, 81, 799, 572, C
+ConfigForm = 0, 390, 922, 908, , 3, 2, 915, 511, C
+LocalizeLNG = 66, 81, 755, 692, C
+ERRHandler = 242, 297, 931, 908, C

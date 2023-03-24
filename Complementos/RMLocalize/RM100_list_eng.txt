@@ -1,0 +1,167 @@
+102  Memory Error	
+103  Cant open the file	
+104  Cant find audio driver	
+105  Lost Buffer. Please report this error	
+106  Ivalid Handle	
+107  Unsuported Format	
+108  Invalid play position	
+109  Invalid BASS_Init call	
+110  Invalid BASS_Start call	
+111  Cant initialize CD	
+112  Invalid BASS_CDInit call	
+113  There is no CD in the drive	
+114  Cant play the selected track	
+115  Already initialized	
+116  Invalid CD volume control	
+117  Not paused	
+118  Invalid audio Track	
+119  Cant find a free channel	
+120  Invalid type	
+121  Invalid parameter	
+122  3D not supported	
+123  EAX not supported	
+124  Invalid ID	
+125  Not playing	
+126  Invalid Sample Rate	
+127  A3D.DLL not installed	
+128  Invalid Stream type (WAV/MP3)	
+129  Invalid Hardware Voices	
+130  Another mistery Error. Please Report This	
+131  1024x768 Resolution needed	
+132  Do you want to continue anyway?	
+133  Cant find an audio device	
+134  Cant access to Digital Audio System	
+135  Insuficient memory	
+136  Incorrect filename or number	
+137  Cant find the specific file	
+138  The file is already open	
+139  I/O Error	
+140  Disc is full	
+141  Invalid device handler	
+142  Access deneid	
+143  Device already open	
+144  Invalid format	
+145  Cant create temporary file	
+146  Cant save data file	
+147  Cant extract data file	
+148  Cannot continue. Error Nº:	
+149  Cand load PlugIn.	
+150  Cant open Ordinary file	
+151  Invalid CUE format	
+152  Invalid CUE Time	
+153  CUE end time cannot be less than start time	
+154  Cant load audio file	
+155  Cant load time file (TimeIn)	
+156  Cant load time file (TimeOut)	
+157  Invalid NETShow format	
+158  Cant play specific audio file	
+159  Cant load specific audio file	
+160  Cant play specific audio file from given position	
+161  Cant initialize the audio library	
+162  Cant initialize the sound system in mode:	
+163  8 bits.	
+164  Mono.	
+165  3D.	
+166  DirectX 8 not initialized	
+167  Invalid Pan level	
+168  Cant change Pan level	
+169  Invalid volume level	
+170  Cant change volume level	
+171  Cant initialize the file in mode:	
+172  LOOP.	
+173  Fast Tracker 2-	
+174  ProTracker 1-	
+175  MONO.	
+176  3D.	
+177  PosReset.	
+178  Sensitive Ramping.	
+179  Normal Ramping.	
+180  Reduced Quality.	
+181  Cant stop module	
+182  Cant stop file	
+183  Cant play the file in mode:	
+184  Invalid file format in Tanda	
+185  Delete primary task?	
+186  Playing time in mixer cant be	
+187  Invalid play hour	
+188  Invalid play minutes	
+189  Invalid play seconds	
+190  Invalid file format in Tanda Programming	
+191  Invalid file format in Manual Station	
+333  Error in module (CerrarArchivoInicio)	
+334  Error in module (CrearArchivoInicio)	
+335  Error in module (CrearReporte)	
+336  Error in module (EscribirReporte)	
+337  Error in module (GetState)	
+338  Error in module (OpenEstDataFile)	
+339  Error in module (OpenEstFile)	
+340  Error in module (OpenPHFile)	
+341  Error in module (OpenTandaFile)	
+342  Error in module (PutState)	
+343  Error in module (SaveCUEFile)	
+344  Error in module (SaveEstDataFile)	
+345  Error in module (SaveEstFile)	
+346  Error in module (SavePHFile)	
+347  Error in module (SaveTandaFile)	
+348  Error in module (Tnd01 - DeployAudioFile)	
+349  Error in module (SavePrgFile)	
+350  Error in module (OpenPrgFile)	
+555  RM100 - Inicialización Ok.	
+556  RM100 - Finalización Ok.	
+999  Please Reinstall Radio Maker.	
+1000 Not implemented yet.	
+1001 STATION 01 - Playing	
+1002 STATION 01 - Stopped	
+1003 STATION 01 - Paused	
+1004 STATION 02 - Playing	
+1005 STATION 02 - Stopped	
+1006 STATION 02 - Paused	
+1007 TANDA - Playing	
+1008 TANDA - Stopped	
+2000 &Accept	
+2001 &Cancel	
+2002 &Browse	
+2003 A&pply	
+2004 &Refresh	
+2005 R&estore	
+2006 &Import	
+2007 Activate CUE	
+2008 ACTIVATE Lunch	
+2009 RMV	
+2010 &Close	
+2011 &Activate	
+2012 &Deactivate	
+2013 Audio File Propietries	
+2014 File Name and path	
+2015 Type	
+2016 File Name	
+2017 Duration	
+2018 Lunch time.	
+2019 Mixer File name and path	
+2020 Mixer Name	
+2021 Audio Propietries - TANDA	
+2022 NOTE: The mixer lunch time cannot be greater than host total time. Example: if you wish to play the mixer past 20 seconds from beginning of host, you must set up the lunch time to 00:20.	
+2023 Config Panel	
+2024 General	
+2025 Audio	
+2026 Directories	
+2027 Security	
+2028 &Config...	
+2029 &Test	
+2030 RMVoice - State window	
+2031 Actual Time	
+2032 Temperature	
+2033 Humidity	
+2034 Commands	
+2035 General Config	
+2036 Hour File:	
+2037 Minutes File:	
+2038 Temperature File:	
+2039 Hum. File:	
+2040 Actual Language:	
+2041 ONLY RMVoice Plug-In for ONLY Radiomaker. Please go to the Radiomaker Main window and click in system hour main panel to lunch the app. Refeer to documentation for more info.	
+2042 RMVoice: File data audio region not found.	
+2043 play hour...	
+2044 play minutes...	
+2045 Invalid autorization code. Please contact support service.	
+2046 Ingles	

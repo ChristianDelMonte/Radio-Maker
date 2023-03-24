@@ -1,0 +1,867 @@
+Option Explicit
+
+Sub SAYFinish()
+
+Dim Result As String
+Dim Fname As String
+Dim pos As Long
+Dim PosEnd As Long
+
+'play the file
+Stream02Play 0
+
+pos = 6852474
+PosEnd = 6952000
+LblStart.Caption = pos
+LblEnd.Caption = PosEnd
+Stream02SetPosition pos, 2
+
+EndTimer.Enabled = True
+EndTimer.Interval = 1
+
+End Sub
+
+Sub SAYminutos()
+
+Dim Hora As String
+Dim Minutos As String
+Dim HR As Integer
+Dim MN As Integer
+Dim Result As String
+Dim Fname As String
+Dim pos As Long
+Dim PosEnd As Long
+
+Hora = Text1(0).Text
+Minutos = Text2(0).Text
+
+HR = CInt(Hora)
+MN = CInt(Minutos)
+
+'play the file
+Stream02Play 0
+
+Select Case MN  'hora seleccionada
+    Case 1
+        pos = 0
+        PosEnd = 154980
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 2
+        pos = 154980
+        PosEnd = 295724
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 3
+        pos = 295724
+        PosEnd = 419074
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 4
+        pos = 419074
+        PosEnd = 564132
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 5
+        pos = 564132
+        PosEnd = 695128
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 6
+        pos = 695128
+        PosEnd = 815190
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 7
+        pos = 815190
+        PosEnd = 994004
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 8
+        pos = 994004
+        PosEnd = 1076678
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 9
+        pos = 1076678
+        PosEnd = 1221216
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 10
+        pos = 1221216
+        PosEnd = 1359678
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 11
+        pos = 1359678
+        PosEnd = 1456554
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 12
+        pos = 1456554
+        PosEnd = 1560852
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 13
+        pos = 1560852
+        PosEnd = 1663840
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 14
+        pos = 1663840
+        PosEnd = 1758402
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 15
+        pos = 1758402
+        PosEnd = 1857710
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 16
+        pos = 1857710
+        PosEnd = 1952436
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 17
+        pos = 1952436
+        PosEnd = 2072082
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 18
+        pos = 2072082
+        PosEnd = 2168988
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 19
+        pos = 2168988
+        PosEnd = 2278160
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 20
+        pos = 2278160
+        PosEnd = 2371864
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 21
+        pos = 2371864
+        PosEnd = 2487616
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 22
+        pos = 2487616
+        PosEnd = 2587468
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 23
+        pos = 2587468
+        PosEnd = 2680046
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 24
+        pos = 2680046
+        PosEnd = 2796894
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 25
+        pos = 2796894
+        PosEnd = 2918208
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 26
+        pos = 1926894
+        PosEnd = 3024344
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 27
+        pos = 3024344
+        PosEnd = 3142820
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 28
+        pos = 3142820
+        PosEnd = 3258572
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 29
+        pos = 3258572
+        PosEnd = 3377260
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 30
+        pos = 3377260
+        PosEnd = 3491358
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 31
+        pos = 3491358
+        PosEnd = 3608968
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 32
+        pos = 3608968
+        PosEnd = 3711024
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 33
+        pos = 3711024
+        PosEnd = 3830224
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 34
+        pos = 3830224
+        PosEnd = 3943010
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 35
+        pos = 3943010
+        PosEnd = 4071630
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 36
+        pos = 4071630
+        PosEnd = 4181394
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 37
+        pos = 4181394
+        PosEnd = 4306170
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 38
+        pos = 4306170
+        PosEnd = 4419250
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 39
+        pos = 4419250
+        PosEnd = 4515570
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 40
+        pos = 4515570
+        PosEnd = 4641836
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 41
+        pos = 4641836
+        PosEnd = 4775718
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 42
+        pos = 4775718
+        PosEnd = 4865822
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 43
+        pos = 4865822
+        PosEnd = 4973506
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 44
+        pos = 4976506
+        PosEnd = 5106890
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 45
+        pos = 5106890
+        PosEnd = 5229702
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 46
+        pos = 5229702
+        PosEnd = 5349912
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 47
+        pos = 5349912
+        PosEnd = 5475848
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 48
+        pos = 5475848
+        PosEnd = 5591600
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 49
+        pos = 5591600
+        PosEnd = 5711336
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 50
+        pos = 5711336
+        PosEnd = 5811132
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 51
+        pos = 5811132
+        PosEnd = 5930210
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 52
+        pos = 5930210
+        PosEnd = 6034390
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 53
+        pos = 6034390
+        PosEnd = 6149486
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 54
+        pos = 6149486
+        PosEnd = 6255114
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 55
+        pos = 6255114
+        PosEnd = 6376870
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 56
+        pos = 6376870
+        PosEnd = 6510468
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 57
+        pos = 6510468
+        PosEnd = 6627540
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 58
+        pos = 6627540
+        PosEnd = 6734022
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 59
+        pos = 6736022
+        PosEnd = 6852474
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream02SetPosition pos, 2
+    Case 0
+        Exit Sub
+        'xxxx
+End Select
+
+MTimer.Enabled = True
+MTimer.Interval = 1
+
+End Sub
+
+Sub SAYhora()
+
+Dim Hora As String
+Dim Minutos As String
+Dim HR As Integer
+Dim MN As Integer
+Dim Result As String
+Dim Fname As String
+Dim pos As Long
+Dim PosEnd As Long
+
+Hora = Text1(0).Text
+Minutos = Text2(0).Text
+
+HR = CInt(Hora)
+MN = CInt(Minutos)
+
+'play the file
+Stream01Play 0
+
+Select Case HR  'hora seleccionada
+    Case 1
+        pos = 115216
+        PosEnd = 210121
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 2
+        pos = 210121
+        PosEnd = 303776
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 3
+        pos = 303776
+        PosEnd = 367068
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 4
+        pos = 367068
+        PosEnd = 455828
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 5
+        pos = 455828
+        PosEnd = 549034
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 6
+        pos = 549034
+        PosEnd = 644266
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 7
+        pos = 644266
+        PosEnd = 737538
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 8
+        pos = 737538
+        PosEnd = 827760
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 9
+        pos = 827760
+        PosEnd = 921986
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 10
+        pos = 921986
+        PosEnd = 1018764
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 11
+        pos = 1018764
+        PosEnd = 1128540
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 12
+        pos = 1128540
+        PosEnd = 1218970
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 13
+        pos = 1218970
+        PosEnd = 1308962
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 14
+        pos = 1308962
+        PosEnd = 1415988
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 15
+        pos = 1415988
+        PosEnd = 1511918
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 16
+        pos = 1511918
+        PosEnd = 1611690
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 17
+        pos = 1611690
+        PosEnd = 1700254
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 18
+        pos = 1700254
+        PosEnd = 1802094
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 19
+        pos = 1802094
+        PosEnd = 1901102
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 20
+        pos = 1901102
+        PosEnd = 1998660
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 21
+        pos = 1998660
+        PosEnd = 2121936
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 22
+        pos = 2121936
+        PosEnd = 2201446
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 23
+        pos = 2201446
+        PosEnd = 2311300
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 24
+        pos = 0
+        PosEnd = 0
+        LblStart.Caption = pos
+        LblEnd.Caption = PosEnd
+        Stream01SetPosition pos, 2
+    Case 0
+        Exit Sub
+        'xxxx
+End Select
+
+Htimer.Enabled = True
+Htimer.Interval = 1
+
+End Sub
+
+
+Private Sub Command1_Click()
+
+Dim Result As String
+Dim FnameHora As String
+Dim FnameMinuto As String
+Dim pos As Long
+Dim PosEnd As Long
+
+'procedemos a la carga del archivo de audio
+FnameHora = "D:\Audio\Horas.wav"
+FnameMinuto = "D:\Audio\Minutos.wav"
+Result = Stream01Load(FnameHora, BASS_MP3_SETPOS, "Stream")
+Result = Stream02Load(FnameMinuto, BASS_MP3_SETPOS, "Stream")
+
+'play the file
+Stream01Play 0
+
+'start the hour phrase
+pos = 0
+PosEnd = 115216
+LblStart.Caption = pos
+LblEnd.Caption = PosEnd
+Stream01SetPosition pos, 2
+
+StartTimer.Enabled = True
+StartTimer.Interval = 1
+
+End Sub
+
+Private Sub EndTimer_Timer()
+
+Dim Result As String
+Dim EndPos As Long
+Dim Poscnv As Long
+
+Result = Stream02GetPosition(2)
+
+EndPos = CLng(Trim(LblEnd.Caption))
+Poscnv = CLng(Trim(Result))
+
+If Poscnv >= EndPos Then
+    Stream02Stop
+    EndTimer.Interval = 0
+    EndTimer.Enabled = False
+End If
+
+End Sub
+
+Private Sub Form_Load()
+
+Dim RPlug As String
+
+'primero chequeamos la llamada desde el RM100
+'RPlug = PlugInCheck(Command$)
+'If RPlug = "NotOk" Then
+'    MsgBox "Este Plug-In debe ser utilizado desde Radio Maker 1.0. unicamente.!", vbInformation, "Nataly Plug-In"
+'    End
+'End If
+
+Dim Result As String
+
+'inicializamos el dispositivo
+Result = InitDevice(0, 0)
+
+End Sub
+
+Private Sub Form_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
+
+Image3.Visible = False
+Image2.Visible = True
+
+End Sub
+
+Private Sub Form_QueryUnload(Cancel As Integer, UnloadMode As Integer)
+
+CloseDevice "Stream", "Stream"
+
+End Sub
+
+Private Sub Form_Terminate()
+
+CloseDevice "Stream", "Stream"
+
+End Sub
+
+Private Sub Form_Unload(Cancel As Integer)
+
+CloseDevice "Stream", "Stream"
+
+End Sub
+
+Private Sub Htimer_Timer()
+
+Dim Result As String
+Dim EndPos As Long
+Dim Poscnv As Long
+
+Result = Stream01GetPosition(2)
+
+EndPos = CLng(Trim(LblEnd.Caption))
+Poscnv = CLng(Trim(Result))
+
+If Poscnv >= EndPos Then
+    Stream01Stop
+    Htimer.Interval = 0
+    Htimer.Enabled = False
+    Call SAYminutos
+End If
+
+End Sub
+
+Private Sub Image2_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
+
+Image3.Visible = True
+Image2.Visible = False
+
+End Sub
+
+Private Sub MTimer_Timer()
+
+Dim Result As String
+Dim EndPos As Long
+Dim Poscnv As Long
+Dim Hora As String
+Dim Minutos As String
+Dim HR As Integer
+Dim MN As Integer
+Dim Fname As String
+Dim pos As Long
+Dim PosEnd As Long
+
+Hora = Text1(0).Text
+Minutos = Text2(0).Text
+
+HR = CInt(Hora)
+MN = CInt(Minutos)
+
+Result = Stream02GetPosition(2)
+
+EndPos = CLng(Trim(LblEnd.Caption))
+Poscnv = CLng(Trim(Result))
+
+If Poscnv >= EndPos Then
+    If MN = 1 Then
+        Stream02Stop
+        MTimer.Interval = 0
+        MTimer.Enabled = False
+    Else
+        Stream02Stop
+        MTimer.Interval = 0
+        MTimer.Enabled = False
+        Call SAYFinish
+    End If
+End If
+
+End Sub
+
+Private Sub PHActive_Click()
+
+End Sub
+
+Private Sub PHCancel_Click()
+
+'cerramos los dispositivos
+CloseDevice "Stream", "Stream"
+
+End
+
+End Sub
+
+Private Sub PHNew_Click()
+
+End Sub
+
+Private Sub PHOpen_Click()
+
+End Sub
+
+Private Sub PHSave_Click()
+
+End Sub
+
+Private Sub StartTimer_Timer()
+
+Dim Result As String
+Dim EndPos As Long
+Dim Poscnv As Long
+
+Result = Stream01GetPosition(2)
+
+EndPos = CLng(Trim(LblEnd.Caption))
+Poscnv = CLng(Trim(Result))
+
+If Poscnv >= EndPos Then
+    Stream01Stop
+    StartTimer.Interval = 0
+    StartTimer.Enabled = False
+    Call SAYhora
+End If
+
+End Sub
+
+Private Sub Text1_GotFocus(Index As Integer)
+
+Text1(Index).SelStart = 0
+Text1(Index).SelLength = Len(Text1(Index).Text)
+
+End Sub
+
+Private Sub Text2_GotFocus(Index As Integer)
+
+Text2(Index).SelStart = 0
+Text2(Index).SelLength = Len(Text2(Index).Text)
+
+End Sub
+
+
+
+
+
+
+
+
+
+Function PlugInCheck(Wcmd As String) As String
+
+Dim TxtChk As String    'chequeo de texto
+Dim PlugPss As String   'clave de encriptacion de la variable de pase
+Dim PssIn As String     'variable de pase (encriptada)
+Dim PssOut As String    'resultado (desencriptado) de la variable de pase
+
+'chequeos
+TxtChk = Trim(Wcmd)
+If TxtChk = "" Or TxtChk = " " Then
+    GoSub NotOk
+End If
+
+'seteos necesarios
+PlugPss = "AppPlugInDir"
+PssIn = "`èZ ‚Vìl¢JýùãûœjZ"     '=BF9-FF05-2001RM100
+
+'Desencriptamos
+Desencriptar PlugPss, PssIn, PssOut
+
+If PssOut = Wcmd Then
+    PlugInCheck = "Ok"
+Else
+    GoSub NotOk
+End If
+Exit Function
+
+NotOk:
+PlugInCheck = "NotOk"
+
+End Function
+
+
+
+
+0
+75.195
+143.451
+211.140
+280.395
+356.805
+434.430
+515.430
+588.195
+662.715
+736.695
+817.695
+894.645
+981.045
+1.059.480
+1.150.335
+1.234.170
+1.331.505
+1.424.655
+1.515.105
+1.599.750
+1.679.940
+1.765.800
+1.850.850

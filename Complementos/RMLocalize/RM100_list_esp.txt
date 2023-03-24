@@ -1,0 +1,148 @@
+102  Error de memoria.	
+103  No se puede abrir el archivo.	
+104  No se puede encontrar el driver de sonido.	
+105  Buffer perdido. Reporte este error por favor!	
+106  Handle inválido.	
+107  Formato no soportado.	
+108  Posición de reproducción inválida.	
+109  BASS_Init no ha sido llamado correctamente.	
+110  BASS_Start no ha sido llamado correctamente.	
+111  No se puede inicializar el CD.	
+112  BASS_CDInit no ha sido llamado correctamente.	
+113  No hay un CD en la unidad.	
+114  No se puede reproducir la pista seleccionada.	
+115  Ya esta inicializada.	
+116  El CD no posee control de volumen.	
+117  No esta pausado.	
+118  No es una pista de audio.	
+119  No se puede encontrar un canal libre.	
+120  Un tipo ilegal ha sido especificado.	
+121  Un parámetro ilegal ha sido especificado.	
+122  No hay soporte 3D.	
+123  No hay soporte EAX.	
+124  Numero de dispositivo ilegal.	
+125  No esta reproduciendo.	
+126  Sample Rate ilegal.	
+127  A3D.DLL no esta instalado	
+128  El Steam no es un archivo Stream válido (WAV/MP3).	
+129  No hay voces de hardware disponibles.	
+130  Otro error misterioso.	
+131  Es necesaria una resolución de 1024x768.	
+132  ¿Desea Continuar de todas maneras?	
+133  No se pudo detectar ningun dispositivo de Audio.	
+134  No se puede acceder al sistema de Audio Digital.	
+135  Insuficiente Memoria para completar la operación.	
+136  Nombre o número de archivo incorrecto.	
+137  No se encontró el archivo especificado o el path es incorrecto.	
+138  El archivo ya se encuentra abierto.	
+139  Error I/O (entrada y salida de datos. Verifique la superficie de su disco duro. Ejecute ScanDisk.	
+140  El disco duro se encuentra lleno o con muy poco espacio disponible.	
+141  Imposible acceder al dispositivo seleccionado.	
+142  Acceso Denegado.	
+143  El dispositivo no está listo.	
+144  El formato del archivo es incorrecto.	
+145  No se puede crear el archivo temporal necesario de trabajo.	
+146  Error al guardar los datos en el archivo.	
+147  Error al extraer los datos del archivo.	
+148  Imposible continuar. Error Nº:	
+149  No se pudo cargar el PlugIn especificado.	
+150  Error al acceder a datos de información ordinaria.	
+151  Formato de archivo CUE inválido.	
+152  Tiempo CUE inválido.	
+153  El tiempo CUE de inicio no puede ser mayor al tiempo de finalización.	
+154  Archivo de audio no cargado.	
+155  No se pudo extraer el tiempo especificado del archivo (TimeIn).	
+156  No se pudo extraer el tiempo especificado del archivo (TimeOut).	
+157  Formato de archivo NETShow Incompatible.	
+158  No se puede reproducir el archivo de audio especificado.	
+159  No se puede cargar el archivo de audio especificado.	
+160  No se puede reproducir el archivo desde la posición especificada.	
+161  No se puede Inicializar la librería de audio.	
+162  No se puede Inicializar el sistema de audio en modo:	
+163  8 bits.	
+164  Mono.	
+165  3D.	
+166  DirectX versión 8 no inicializado.	
+167  Nivel de paneo inválido.	
+168  No se puede cambiar el nivel de paneo.	
+169  Nivel de volumen inválido.	
+170  No se puede cambiar el nivel de volumen.	
+171  No se puede inicializar el archivo en modo:	
+172  LOOP.	
+173  FastTracker 2.	
+174  ProTracker 1.	
+175  MONO.	
+176  3D.	
+177  PosReset.	
+178  Sensitive Ramping.	
+179  Normal Ramping.	
+180  Reduced Quality.	
+181  No se puede detener la reproducción del modulo.	
+182  No se puede detener la reproducción del archivo.	
+183  No se puede reproducir el archivo en modo:	
+184  Formato de archivo no admitido para usar en Tandas.	
+185  Ha seleccionado eliminar el tema principal.	
+186  La duración de un Mixado Intermedio no puede ser mayor a 59 segundos.	
+187  Hora de lanzamiento no válida. Utilice un formato de 24 hs. (nó AM/PM).	
+188  Minutos de lanzamiento no válidos. Utilice un formato de 24 hs. (nó AM/PM)	
+189  Segundos de lanzamiento no válidos. Utilice un formato de 24 hs. (nó AM/PM)	
+190  Formato de archivo no admitido para ser usado en Programación de Tandas.	
+191  Formato de archivo no admitido para ser usado en Estacion Manual.	
+333  Error en modulo (CerrarArchivoInicio)	
+334  Error en modulo (CrearArchivoInicio)	
+335  Error en modulo (CrearReporte)	
+336  Error en modulo (EscribirReporte)	
+337  Error en modulo (GetState)	
+338  Error en modulo (OpenEstDataFile)	
+339  Error en modulo (OpenEstFile)	
+340  Error en modulo (OpenPHFile)	
+341  Error en modulo (OpenTandaFile)	
+342  Error en modulo (PutState)	
+343  Error en modulo (SaveCUEFile)	
+344  Error en modulo (SaveEstDataFile)	
+345  Error en modulo (SaveEstFile)	
+346  Error en modulo (SavePHFile)	
+347  Error en modulo (SaveTandaFile)	
+348  Error en modulo (Tnd01 - DeployAudioFile)	
+349  Error en modulo (SavePrgFile)	
+350  Error en modulo (OpenPrgFile)	
+555  RM100 - Inicialización Ok.	
+556  RM100 - Finalización Ok.	
+999  Reinstale Radio Maker.	
+1000 Opción no implementada.	
+1001 ESTACION 01 - Reproduciendo	
+1002 ESTACION 01 - Detenido	
+1003 ESTACION 01 - En Pausa	
+1004 ESTACION 02 - Reproduciendo	
+1005 ESTACION 02 - Detenido	
+1006 ESTACION 02 - En Pausa	
+1007 TANDA - Reproduciendo	
+1008 TANDA - Detenido	
+2000 &Aceptar	
+2001 &Cancelar	
+2002 &Examinar	
+2003 A&plicar	
+2004 Actuali&zar	
+2005 &Restablecer	
+2006 &Importar	
+2007 Activar CUE	
+2008 ACTIVAR &Lanzamiento	
+2009 RMV	
+2010 &Cerrar	
+2011 &ACTIVAR	
+2012 &DESACTIVAR	
+2013 Propiedades del archivo de audio	
+2014 Path y nombre del archivo	
+2015 Tipo	
+2016 Nombre del tema	
+2017 Duracion	
+2018 Hora de Lanz.	
+2019 Path y nombre de archivo mixer	
+2020 Nombre del mixer	
+2021 Propiedades de Audio - TANDA	
+2022 NOTA: La hora de lanzamiento del Mixado intermedio es relativa a la duracion de su huesped (el tema principal), por lo tanto la misma no debe ser mayor a la duracion del mismo. Ejemplo: si desea que el mixer sea reproducido pasado 20 segundos desde el comienzo de la reproduccion del huesped setee la hora de lanzamiento del mismo a 00:20.	
+2023 Panel de Configuracion	
+2024 General	
+2025 Audio	
+2026 Directorios	
+2027 Seguridad	

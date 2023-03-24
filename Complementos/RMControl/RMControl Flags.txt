@@ -1,0 +1,37 @@
+
+'*********** Flags para usar con Stream01Play and Stream02Play ****************
+'* Global Const BASS_SAMPLE_8BITS = 1             ' 8 bit, else 16 bit
+'* Global Const BASS_SAMPLE_MONO = 2              ' mono, else stereo
+'* Global Const BASS_SAMPLE_LOOP = 4              ' looped
+'* Global Const BASS_SAMPLE_3D = 8                ' 3D functionality enabled
+'*** Default = 0 	'none, normal mode
+
+'*********** Flags para usar con Stream01Load and Stream02Load ****************
+'* Global Const BASS_SAMPLE_3D = 8                ' 3D functionality enabled
+'* Global Const BASS_MP3_HALFRATE = 65536         ' reduced quality MP3 (half sample rate)
+'*** Global Const BASS_MP3_SETPOS = 131072          ' enable BASS_ChannelSetPosition on the MP3
+
+
+'******************** Flags para usar con InitDevice ***************************
+'* Global Const BASS_DEVICE_8BITS = 1     'use 8 bit resolution, else 16 bit
+'* Global Const BASS_DEVICE_MONO = 2      'use mono, else stereo
+'* Global Const BASS_DEVICE_3D = 4        'enable 3D functionality
+' If the BASS_DEVICE_3D flag is not specified when initilizing BASS,
+' then the 3D flags (BASS_SAMPLE_3D and BASS_MUSIC_3D) are ignored when
+' loading/creating a sample/stream/music.
+'*** Default = 0	'enable 44100 16 bit stereo
+
+
+'****************** Flag para usar con Music01Load and Music02Load ****************
+'* Global Const BASS_MUSIC_RAMP = 1       ' normal ramping
+'* Global Const BASS_MUSIC_RAMPS = 2      ' sensitive ramping
+' Ramping doesn't take a lot of extra processing and improves
+' the sound quality by removing "clicks". Sensitive ramping will
+' leave sharp attacked samples, unlike normal ramping.
+'* Global Const BASS_MUSIC_LOOP = 4       ' loop music
+'* Global Const BASS_MUSIC_FT2MOD = 16    ' play .MOD as FastTracker 2 does
+'* Global Const BASS_MUSIC_PT1MOD = 32    ' play .MOD as ProTracker 1 does
+'* Global Const BASS_MUSIC_MONO = 64      ' force mono mixing (less CPU usage)
+'* Global Const BASS_MUSIC_3D = 128       ' enable 3D functionality
+'* Global Const BASS_MUSIC_POSRESET = 256 ' stop all notes when moving position
+'*** Default = 0	'none, normal mode

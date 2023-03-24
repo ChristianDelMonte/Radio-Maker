@@ -1,0 +1,441 @@
+VERSION 5.00
+Begin VB.PropertyPage propAll 
+   Caption         =   "Normal"
+   ClientHeight    =   3390
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   4800
+   BeginProperty Font 
+      Name            =   "Tahoma"
+      Size            =   8.25
+      Charset         =   0
+      Weight          =   400
+      Underline       =   0   'False
+      Italic          =   0   'False
+      Strikethrough   =   0   'False
+   EndProperty
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   3390
+   ScaleWidth      =   4800
+   Begin VB.Frame Frame2 
+      Caption         =   "Strings"
+      Height          =   975
+      Left            =   120
+      TabIndex        =   13
+      Top             =   2280
+      Width           =   3735
+      Begin VB.PictureBox Picture2 
+         BorderStyle     =   0  'None
+         Height          =   615
+         Left            =   120
+         ScaleHeight     =   615
+         ScaleWidth      =   3495
+         TabIndex        =   14
+         Top             =   240
+         Width           =   3495
+         Begin VB.TextBox txtToolTipText 
+            Height          =   285
+            Left            =   1080
+            TabIndex        =   17
+            Top             =   360
+            Width           =   1935
+         End
+         Begin VB.TextBox txtTag 
+            Height          =   285
+            Left            =   1080
+            TabIndex        =   15
+            Top             =   0
+            Width           =   1935
+         End
+         Begin VB.Label Label1 
+            Caption         =   "ToolTipText"
+            Height          =   255
+            Index           =   6
+            Left            =   0
+            TabIndex        =   18
+            Top             =   360
+            Width           =   975
+         End
+         Begin VB.Label Label1 
+            Caption         =   "Tag"
+            Height          =   255
+            Index           =   5
+            Left            =   0
+            TabIndex        =   16
+            Top             =   0
+            Width           =   975
+         End
+      End
+   End
+   Begin VB.Frame Frame1 
+      Caption         =   "Position"
+      Height          =   1000
+      Left            =   120
+      TabIndex        =   3
+      Top             =   1080
+      Width           =   3735
+      Begin VB.PictureBox Picture1 
+         BorderStyle     =   0  'None
+         Height          =   700
+         Left            =   120
+         ScaleHeight     =   705
+         ScaleWidth      =   3495
+         TabIndex        =   4
+         Top             =   240
+         Width           =   3495
+         Begin VB.TextBox txtWidth 
+            Height          =   285
+            Left            =   2400
+            TabIndex        =   11
+            Top             =   360
+            Width           =   1095
+         End
+         Begin VB.TextBox txtHeight 
+            Height          =   285
+            Left            =   600
+            TabIndex        =   9
+            Top             =   360
+            Width           =   1095
+         End
+         Begin VB.TextBox txtTop 
+            Height          =   285
+            Left            =   2400
+            TabIndex        =   7
+            Top             =   0
+            Width           =   1095
+         End
+         Begin VB.TextBox txtLeft 
+            Height          =   285
+            Left            =   600
+            TabIndex        =   5
+            Top             =   0
+            Width           =   1095
+         End
+         Begin VB.Label Label1 
+            Caption         =   "Width"
+            Height          =   255
+            Index           =   4
+            Left            =   1800
+            TabIndex        =   12
+            Top             =   360
+            Width           =   615
+         End
+         Begin VB.Label Label1 
+            Caption         =   "Height"
+            Height          =   255
+            Index           =   2
+            Left            =   0
+            TabIndex        =   10
+            Top             =   360
+            Width           =   615
+         End
+         Begin VB.Label Label1 
+            Caption         =   "Top"
+            Height          =   255
+            Index           =   1
+            Left            =   1800
+            TabIndex        =   8
+            Top             =   0
+            Width           =   615
+         End
+         Begin VB.Label Label1 
+            Caption         =   "Left"
+            Height          =   255
+            Index           =   0
+            Left            =   0
+            TabIndex        =   6
+            Top             =   0
+            Width           =   615
+         End
+      End
+   End
+   Begin VB.CheckBox chkVisible 
+      Caption         =   "Visible"
+      Height          =   255
+      Left            =   120
+      TabIndex        =   1
+      Top             =   600
+      Width           =   3015
+   End
+   Begin VB.TextBox txtName 
+      Height          =   285
+      Left            =   1200
+      TabIndex        =   0
+      Top             =   240
+      Width           =   1935
+   End
+   Begin VB.Label Label1 
+      Caption         =   "Name"
+      Height          =   255
+      Index           =   3
+      Left            =   120
+      TabIndex        =   2
+      Top             =   240
+      Width           =   975
+   End
+End
+Attribute VB_Name = "propAll"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+' =======================================================
+'
+' rmUserControlsXP
+' Coded by violent_ken (Alain Descotes)
+'
+' =======================================================
+'
+' Some graphical UserControls for your VB application.
+'
+' Copyright © 2006-2007 by Alain Descotes.
+'
+' rmUserControlsXP is free software; you can redistribute it and/or
+' modify it under the terms of the GNU Lesser General Public
+' License as published by the Free Software Foundation; either
+' version 2.1 of the License, or (at your option) any later version.
+'
+' rmUserControlsXP is distributed in the hope that it will be useful,
+' but WITHOUT ANY WARRANTY; without even the implied warranty of
+' MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+' Lesser General Public License for more details.
+'
+' You should have received a copy of the GNU Lesser General Public
+' License along with this library; if not, write to the Free Software
+' Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+'
+' =======================================================
+
+
+Option Explicit
+
+
+Private Sub txtHeight_Change(): Changed = True: End Sub
+Private Sub txtLeft_Change(): Changed = True: End Sub
+Private Sub txtName_Change(): Changed = True: End Sub
+Private Sub txtTag_Change(): Changed = True: End Sub
+Private Sub txtToolTipText_Change(): Changed = True: End Sub
+Private Sub txtTop_Change(): Changed = True: End Sub
+Private Sub txtWidth_Change(): Changed = True: End Sub
+Private Sub chkVisible_Click(): Changed = True: End Sub
+
+
+Private Sub PropertyPage_ApplyChanges()
+'on applique les nouvelles properties à tous les controles sélectionnés
+
+    'on fait une sub pour chaque type de controle pour pouvoir
+    'définir SelectedControls(0) comme un object particulier, et non
+    'comme un Object, pour pouvoir accéder à la Friend Property MyExtender
+    If TypeOf SelectedControls(0) Is rmCheck Then
+        Call rmCheckFC
+    'ElseIf TypeOf SelectedControls(0) Is rmBar Then
+    '    Call rmBarFC
+    ElseIf TypeOf SelectedControls(0) Is rmCommand Then
+        Call rmCommandFC
+    ElseIf TypeOf SelectedControls(0) Is rmFrame Then
+        Call rmFrameFC
+    'ElseIf TypeOf SelectedControls(0) Is rmHScroll Then
+    '    Call rmHScrollFC
+    'ElseIf TypeOf SelectedControls(0) Is rmLabel Then
+    '    Call rmLabelFC
+    ElseIf TypeOf SelectedControls(0) Is rmOptionButton Then
+        Call rmOptionButtonFC
+    'ElseIf TypeOf SelectedControls(0) Is rmToggleButton Then
+    '    Call rmToggleButtonFC
+    'ElseIf TypeOf SelectedControls(0) Is rmUpDown Then
+    '    Call rmUpDownFC
+    'ElseIf TypeOf SelectedControls(0) Is rmVScroll Then
+    '    Call rmVScrollFC
+    'Else
+    '    Call rmListBoxFC
+    End If
+
+End Sub
+
+Private Sub PropertyPage_SelectionChanged()
+
+    'on fait une sub pour chaque type de controle pour pouvoir
+    'définir SelectedControls(0) comme un object particulier, et non
+    'comme un Object, pour pouvoir accéder à la Friend Property MyExtender
+    If TypeOf SelectedControls(0) Is rmCheck Then
+        Call rmCheckF
+    'ElseIf TypeOf SelectedControls(0) Is rmBar Then
+    '    Call rmBarF
+    ElseIf TypeOf SelectedControls(0) Is rmCommand Then
+        Call rmCommandF
+    ElseIf TypeOf SelectedControls(0) Is rmFrame Then
+        Call rmFrameF
+    'ElseIf TypeOf SelectedControls(0) Is rmHScroll Then
+    '    Call rmHScrollF
+    'ElseIf TypeOf SelectedControls(0) Is rmLabel Then
+    '    Call rmLabelF
+    ElseIf TypeOf SelectedControls(0) Is rmOptionButton Then
+        Call rmOptionButtonF
+    'ElseIf TypeOf SelectedControls(0) Is rmToggleButton Then
+    '    Call rmToggleButtonF
+    'ElseIf TypeOf SelectedControls(0) Is rmUpDown Then
+    '    Call rmUpDownF
+    'ElseIf TypeOf SelectedControls(0) Is rmVScroll Then
+    '    Call rmVScrollF
+    'Else
+    '    Call rmListBoxF
+    End If
+
+
+End Sub
+
+
+'=======================================================
+'rmCheck
+'=======================================================
+Private Sub rmCheckF()
+Dim MyCtrl As rmCheck
+    
+    Set MyCtrl = SelectedControls(0)
+    
+    With MyCtrl.MyExtender
+        txtName.Text = .Name
+        txtHeight.Text = CStr(.Height)
+        txtLeft.Text = CStr(.Left)
+        txtTag.Text = .Tag
+        txtToolTipText.Text = .ToolTipText
+        txtTop.Text = CStr(.Top)
+        txtWidth.Text = CStr(.Width)
+        chkVisible.Value = Abs(CInt(.Visible))
+    End With
+End Sub
+Private Sub rmCheckFC()
+Dim MyCtrl As rmCheck
+    
+    On Error Resume Next
+    
+    Set MyCtrl = SelectedControls(0)
+    
+    With MyCtrl.MyExtender
+        .Name = txtName.Text
+        .Height = Val(txtHeight.Text)
+        .Left = Val(txtLeft.Text)
+        .Tag = txtTag.Text
+        .ToolTipText = txtToolTipText.Text
+        .Top = Val(txtTop.Text)
+        .Width = Val(txtWidth.Text)
+        .Visible = CBool(chkVisible.Value)
+    End With
+End Sub
+
+
+'=======================================================
+'rmCommand
+'=======================================================
+Private Sub rmCommandF()
+Dim MyCtrl As rmCommand
+    
+    Set MyCtrl = SelectedControls(0)
+    
+    With MyCtrl.MyExtender
+        txtName.Text = .Name
+        txtHeight.Text = CStr(.Height)
+        txtLeft.Text = CStr(.Left)
+        txtTag.Text = .Tag
+        txtToolTipText.Text = .ToolTipText
+        txtTop.Text = CStr(.Top)
+        txtWidth.Text = CStr(.Width)
+        chkVisible.Value = Abs(CInt(.Visible))
+    End With
+End Sub
+Private Sub rmCommandFC()
+Dim MyCtrl As rmCommand
+    
+    On Error Resume Next
+    
+    Set MyCtrl = SelectedControls(0)
+    
+    With MyCtrl.MyExtender
+        .Name = txtName.Text
+        .Height = Val(txtHeight.Text)
+        .Left = Val(txtLeft.Text)
+        .Tag = txtTag.Text
+        .ToolTipText = txtToolTipText.Text
+        .Top = Val(txtTop.Text)
+        .Width = Val(txtWidth.Text)
+        .Visible = CBool(chkVisible.Value)
+    End With
+End Sub
+
+
+'=======================================================
+'rmFrame
+'=======================================================
+Private Sub rmFrameF()
+Dim MyCtrl As rmFrame
+    
+    Set MyCtrl = SelectedControls(0)
+    
+    With MyCtrl.MyExtender
+        txtName.Text = .Name
+        txtHeight.Text = CStr(.Height)
+        txtLeft.Text = CStr(.Left)
+        txtTag.Text = .Tag
+        txtToolTipText.Text = .ToolTipText
+        txtTop.Text = CStr(.Top)
+        txtWidth.Text = CStr(.Width)
+        chkVisible.Value = Abs(CInt(.Visible))
+    End With
+End Sub
+Private Sub rmFrameFC()
+Dim MyCtrl As rmFrame
+    
+    On Error Resume Next
+    
+    Set MyCtrl = SelectedControls(0)
+    
+    With MyCtrl.MyExtender
+        .Name = txtName.Text
+        .Height = Val(txtHeight.Text)
+        .Left = Val(txtLeft.Text)
+        .Tag = txtTag.Text
+        .ToolTipText = txtToolTipText.Text
+        .Top = Val(txtTop.Text)
+        .Width = Val(txtWidth.Text)
+        .Visible = CBool(chkVisible.Value)
+    End With
+End Sub
+
+
+'=======================================================
+'rmOptionButton
+'=======================================================
+Private Sub rmOptionButtonF()
+Dim MyCtrl As rmOptionButton
+    
+    Set MyCtrl = SelectedControls(0)
+    
+    With MyCtrl.MyExtender
+        txtName.Text = .Name
+        txtHeight.Text = CStr(.Height)
+        txtLeft.Text = CStr(.Left)
+        txtTag.Text = .Tag
+        txtToolTipText.Text = .ToolTipText
+        txtTop.Text = CStr(.Top)
+        txtWidth.Text = CStr(.Width)
+        chkVisible.Value = Abs(CInt(.Visible))
+    End With
+End Sub
+Private Sub rmOptionButtonFC()
+Dim MyCtrl As rmOptionButton
+    
+    On Error Resume Next
+    
+    Set MyCtrl = SelectedControls(0)
+    
+    With MyCtrl.MyExtender
+        .Name = txtName.Text
+        .Height = Val(txtHeight.Text)
+        .Left = Val(txtLeft.Text)
+        .Tag = txtTag.Text
+        .ToolTipText = txtToolTipText.Text
+        .Top = Val(txtTop.Text)
+        .Width = Val(txtWidth.Text)
+        .Visible = CBool(chkVisible.Value)
+    End With
+End Sub

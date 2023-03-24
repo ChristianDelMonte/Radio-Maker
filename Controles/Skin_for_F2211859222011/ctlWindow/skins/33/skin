@@ -1,0 +1,60 @@
+#WINDOW-SKIN-1.0
+#MAPS
+	0.gif
+	1.bmp
+	2.gif
+	3.bmp
+	4.bmp
+	5.gif
+	6.bmp
+	7.gif
+	8.gif
+	9.gif
+	10.gif
+	11.gif
+	12.gif
+	13.gif
+	14.gif
+	15.gif
+	16.gif
+	17.gif
+	18.gif
+	19.gif
+	20.gif
+	21.gif
+#TITLE-FONT
+	Tahoma
+	Negrita
+	10
+#TITLE-COLOR
+	16777215
+	0
+#BACKGROUND-COLOR
+	10785147
+#WINDOW-RECT
+	12,12
+	9,9
+	7,7
+	6,6
+	5,5
+	4,4
+	3,3
+	2,2
+	2,2
+	1,1
+	1,1
+	1,1
+	ALL -12; 0,0
+	1,1
+	1,1
+	1,1
+	2,2
+	2,2
+	3,3
+	4,4
+	5,5
+	6,6
+	7,7
+	9,9
+	12,12
+#END

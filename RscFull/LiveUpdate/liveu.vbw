@@ -1,0 +1,7 @@
+FrmLiveUpd = 21, 20, 799, 575, C, 22, 22, 611, 482, C
+LiveUpd = 0, 0, 649, 568, C
+CABMaker = 110, 110, 570, 586, C
+FrmWarning = 110, 110, 570, 586, C, 44, 44, 504, 520, C
+FrmDecompress = 198, 198, 658, 674, C, 66, 66, 526, 542, C
+CipherMod = 44, 44, 504, 520, C
+Compress = 22, 29, 775, 646, C
